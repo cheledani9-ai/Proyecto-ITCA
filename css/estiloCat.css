@@ -316,6 +316,13 @@ margin-top: 50px;
     }
 }
 
+
+@media (max-width: 768px) {
+    .card-img-top {
+        object-position: 0% 90% !important;
+    }
+}
+
 @media (max-width: 992px) {
 
     header {
@@ -369,6 +376,11 @@ margin-top: 50px;
 
     .registro.abierto {
         display: flex;
+    }
+
+    .card-img-top {
+        object-position: center center;
+        object-position: center;
     }
 
     /* Footer 2 columnas */
